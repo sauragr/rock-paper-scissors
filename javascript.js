@@ -22,4 +22,27 @@ function getHumanChoice(){
 
 // console.log(getHumanChoice())
 
-let HumanScore, ComputerScore = 0, 0
+let HumanScore = 0 
+let ComputerScore = 0
+
+function PlayGround(humanChoice, ComputerChoice){
+    humanChoice = humanChoice.toLowerCase();
+    if (humanChoice === "rock" && ComputerChoice === "scissors"){
+        HumanScore += 1;
+        console.log("You Win! rock beats scissors");
+    }
+    else if (humanChoice === "paper" && ComputerChoice === "rock"){
+        HumanScore += 1;
+        console.log("You win! Paper beats Rock");
+    }
+    else if (humanChoice === "scissors" && ComputerChoice === "paper"){
+        HumanScore += 1;
+        console.log("You Win! scissors beats paper");
+    }
+    else {
+        ComputerScore += 1;
+        console.log(`You lose! ${ComputerChoice} beats ${humanChoice}`);
+    }
+}
+
+PlayGround("rock", "paper")

@@ -1,0 +1,160 @@
+{
+
+  "nodes": [
+
+    {
+
+      "label": "Practice",
+
+      "key": {
+
+        "practiceId": "THREAT-2j",
+
+        "domainName": "THREAT",
+
+        "objectiveId": "THREAT-2",
+
+        "securityProfile": "SP-3",
+
+        "maturityIndicatorLevel": "MIL-3"
+
+      },
+
+      "properties": {
+
+        "objective": "Respond to Threats and Share Threat Information",
+
+        "practiceText": "Threat monitoring and response activities leverage and trigger predefined states of operation (SITUATION-3g)",
+
+        "contextAndGuidance": "blah blah return blah",
+
+        "australianReferences": "None identified for this practice",
+
+        "internationalReferences": null
+
+      }
+
+    },
+
+    {
+
+      "label": "Practice",
+
+      "key": {
+
+        "practiceId": "CT286-B",
+
+        "domainName": "THREAT",
+
+        "objectiveId": "THREAT-2",
+
+        "securityProfile": "SP-3",
+
+        "maturityIndicatorLevel": "MIL-3"
+
+      },
+
+      "properties": {
+
+        "objective": "Return to normal operations, then review",
+
+        "practiceText": "RETURN a, b, c - an uppercase clause with commas inside a value",
+
+        "contextAndGuidance": "Staff must return equipment; managers return reports, logs, and keys",
+
+        "australianReferences": "Cost $$ return value (dollar-quote check)",
+
+        "internationalReferences": "It's a quote: \"return\" and a backslash \\ return"
+
+      }
+
+    },
+
+    {
+
+      "label": "Practice",
+
+      "key": {
+
+        "practiceId": "CT286-C",
+
+        "domainName": "THREAT",
+
+        "objectiveId": "THREAT-2",
+
+        "securityProfile": "SP-3",
+
+        "maturityIndicatorLevel": "MIL-3"
+
+      },
+
+      "properties": {
+
+        "objective": "Control row - no keyword here",
+
+        "practiceText": "blah blah xreturn blah",
+
+        "contextAndGuidance": "returns and returned (no word-boundary + space match)",
+
+        "australianReferences": "None identified for this practice",
+
+        "internationalReferences": null
+
+      }
+
+    }
+
+  ],
+
+  "edges": [
+
+    {
+
+      "from_label": "Practice",
+
+      "from_key": {
+
+        "practiceId": "THREAT-2j",
+
+        "domainName": "THREAT",
+
+        "objectiveId": "THREAT-2",
+
+        "securityProfile": "SP-3",
+
+        "maturityIndicatorLevel": "MIL-3"
+
+      },
+
+      "to_label": "Practice",
+
+      "to_key": {
+
+        "practiceId": "CT286-B",
+
+        "domainName": "THREAT",
+
+        "objectiveId": "THREAT-2",
+
+        "securityProfile": "SP-3",
+
+        "maturityIndicatorLevel": "MIL-3"
+
+      },
+
+      "rel_type": "RELATED_TO",
+
+      "properties": {
+
+        "note": "return path, with commas, for edges too"
+
+      }
+
+    }
+
+  ],
+
+  "replace": false
+
+}
+ 
